@@ -1,0 +1,1 @@
+# autoSwitchKicad
