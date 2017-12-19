@@ -1,4 +1,4 @@
-update=Mon 16 Feb 2015 06:37:24 AM PST
+update=2017年12月20日 星期三 00时54分03秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,4 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=NanoV3.2
+LibName2=conn

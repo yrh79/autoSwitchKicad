@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:NanoV3.2
-LIBS:NanoV3.2-cache
+LIBS:conn
 EELAYER 25 0
 EELAYER END
 $Descr A0 46811 33110
@@ -123,12 +123,12 @@ $EndComp
 $Comp
 L 0005_064R_1K___CAY16-102J4LF RP1
 U 1 1 5A38C638
-P 10100 8450
-F 0 "RP1" H 10000 8230 70  0000 L BNN
-F 1 "1K" H 10300 8230 70  0000 L BNN
-F 2 "CAY16" H 10090 8240 65  0001 L TNN
-F 3 "" H 10100 8450 60  0001 C CNN
-	1    10100 8450
+P 10100 8350
+F 0 "RP1" H 10000 8130 70  0000 L BNN
+F 1 "1K" H 10300 8130 70  0000 L BNN
+F 2 "CAY16" H 10090 8140 65  0001 L TNN
+F 3 "" H 10100 8350 60  0001 C CNN
+	1    10100 8350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -266,12 +266,12 @@ $EndComp
 $Comp
 L COM #U$09
 U 1 1 5A38D768
-P 4700 6350
-F 0 "#U$09" H 4750 6400 60  0001 C CNN
-F 1 "~" H 4700 6350 60  0001 C CNN
-F 2 "" H 4700 6350 60  0001 C CNN
-F 3 "" H 4700 6350 60  0001 C CNN
-	1    4700 6350
+P 4700 6250
+F 0 "#U$09" H 4750 6300 60  0001 C CNN
+F 1 "~" H 4700 6250 60  0001 C CNN
+F 2 "" H 4700 6250 60  0001 C CNN
+F 3 "" H 4700 6250 60  0001 C CNN
+	1    4700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -364,12 +364,8 @@ Text Label 5800 6150 0    65   ~ 0
 RESET
 Text Label 6700 6150 0    65   ~ 0
 RESET
-Text Label 10500 8450 0    65   ~ 0
-RX
 Text Label 10500 8150 0    65   ~ 0
 TX
-Text Label 6400 9750 3    10   ~ 0
-+5V
 Text Label 6000 9950 0    10   ~ 0
 +5V
 Text Label 6000 9850 0    10   ~ 0
@@ -379,8 +375,6 @@ Text Label 6700 9850 2    10   ~ 0
 Text Label 6400 9950 1    10   ~ 0
 +5V
 Text Label 7200 7550 2    10   ~ 0
-+5V
-Text Label 5700 7250 3    10   ~ 0
 +5V
 Text Label 7200 6950 2    10   ~ 0
 +5V
@@ -434,15 +428,9 @@ Text GLabel 12700 9950 2    10   UnSpc ~ 0
 COM
 Text GLabel 5100 6150 0    10   UnSpc ~ 0
 COM
-Text GLabel 4700 6250 1    10   UnSpc ~ 0
-COM
 Text GLabel 5600 10550 1    10   UnSpc ~ 0
 COM
 Text GLabel 5600 10250 3    10   UnSpc ~ 0
-COM
-Text GLabel 7400 10550 1    10   UnSpc ~ 0
-COM
-Text GLabel 7400 10450 3    10   UnSpc ~ 0
 COM
 Text GLabel 6300 6550 0    10   UnSpc ~ 0
 COM
@@ -461,8 +449,6 @@ COM
 Text GLabel 6400 10450 1    10   UnSpc ~ 0
 COM
 Text Label 9100 8250 0    10   ~ 0
-D0/RX
-Text Label 9900 8450 2    10   ~ 0
 D0/RX
 Text Label 9100 8150 0    10   ~ 0
 D1/TX
@@ -518,12 +504,8 @@ Text Label 6200 5950 3    10   ~ 0
 RESET
 Text Label 7200 6150 2    10   ~ 0
 RESET
-Text Label 10300 8450 0    10   ~ 0
-RX
 Text Label 10300 8150 0    10   ~ 0
 TX
-Text Label 4800 9750 3    10   ~ 0
-VIN
 Text Label 5300 9850 2    10   ~ 0
 VIN
 Text Label 7200 8050 2    10   ~ 0
@@ -571,8 +553,6 @@ Connection ~ 6100 9850
 Wire Wire Line
 	5700 7550 7200 7550
 Wire Wire Line
-	5700 7250 5700 7850
-Wire Wire Line
 	7200 6950 6700 6950
 Wire Wire Line
 	6700 6950 6700 7650
@@ -616,8 +596,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 6150 4700 6150
 Wire Wire Line
-	4700 6150 4700 6250
-Wire Wire Line
 	5600 10550 5600 10250
 Wire Wire Line
 	7400 10550 7400 10450
@@ -637,11 +615,7 @@ Connection ~ 7000 7350
 Wire Wire Line
 	6400 10450 6400 10250
 Wire Wire Line
-	9100 8250 9600 8250
-Wire Wire Line
-	9600 8250 9600 8450
-Wire Wire Line
-	9600 8450 9900 8450
+	9100 8250 9900 8250
 Wire Wire Line
 	9100 8150 9900 8150
 Wire Wire Line
@@ -675,13 +649,45 @@ Wire Wire Line
 Wire Wire Line
 	7200 6150 6700 6150
 Wire Wire Line
-	10300 8450 10700 8450
-Wire Wire Line
-	10300 8150 10700 8150
+	10300 8150 11000 8150
 Wire Wire Line
 	4800 9750 4800 9850
 Wire Wire Line
 	4800 9850 5300 9850
 Wire Wire Line
 	9100 6150 9500 6150
+$Comp
+L CONN_01X03 P1
+U 1 1 5A39460E
+P 11200 8250
+F 0 "P1" H 11200 8450 50  0000 C CNN
+F 1 "CONN_01X03" V 11300 8250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 11200 8250 50  0001 C CNN
+F 3 "" H 11200 8250 50  0000 C CNN
+	1    11200 8250
+	1    0    0    -1  
+$EndComp
+Text Label 10500 8450 0    65   ~ 0
+RX
+Wire Wire Line
+	9900 8250 9900 8350
+Wire Wire Line
+	10300 8350 10700 8350
+Wire Wire Line
+	10700 8350 10700 8250
+Wire Wire Line
+	10700 8250 11000 8250
+$Comp
+L COM #M015
+U 1 1 5A394983
+P 11000 8450
+F 0 "#M015" H 11000 8450 45  0001 C CNN
+F 1 "COM" H 11000 8450 45  0001 C CNN
+F 2 "" H 11000 8450 60  0000 C CNN
+F 3 "" H 11000 8450 60  0000 C CNN
+	1    11000 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 7250 5700 7850
 $EndSCHEMATC
