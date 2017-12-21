@@ -1,4 +1,4 @@
-update=2017年12月20日 星期三 00时54分03秒
+update=2017/12/21 12:46:29
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,5 @@ LibDir=
 [eeschema/libraries]
 LibName1=NanoV3.2
 LibName2=conn
+LibName3=relays
+LibName4=transistors
