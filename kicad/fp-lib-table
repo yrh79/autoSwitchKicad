@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name NanoV3.2_windows)(type Legacy)(uri "$(KIPRJMOD)\\NanoV3.2.mod")(options "")(descr ""))
-  (lib (name autoSwitch)(type KiCad)(uri "$(KIPRJMOD)\\autoSwitch.pretty")(options "")(descr ""))
+  (lib (name NanoV3.2_windows)(type Legacy)(uri "$(KIPRJMOD)/NanoV3.2.mod")(options "")(descr ""))
+  (lib (name autoSwitch)(type KiCad)(uri "$(KIPRJMOD)/autoSwitch.pretty")(options "")(descr ""))
 )
