@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jame/autoSwitchKicad/kicad/NanoV3.2.sch</source>
+    <date>2017年12月22日 星期五 17时01分10秒</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NanoV3.2.sch</title>
+        <company/>
+        <rev/>
+        <date>19 DEC 2017</date>
+        <source>NanoV3.2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>C0603-ROUND</footprint>
+      <libsource lib="NanoV3.2" part="0015_100NF_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38B440</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>C0603-ROUND</footprint>
+      <libsource lib="NanoV3.2" part="0006_1UF_0603_GRM188R61E105KA12D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38B5D0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4,7uF_16V</value>
+      <footprint>TAN-A</footprint>
+      <libsource lib="NanoV3.2" part="0833_TAJA475MO16RNJ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38B760</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>C0603-ROUND</footprint>
+      <libsource lib="NanoV3.2" part="0006_1UF_0603_GRM188R61E105KA12D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38B8F0</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>C0603-ROUND</footprint>
+      <libsource lib="NanoV3.2" part="0006_1UF_0603_GRM188R61E105KA12D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38B9B8</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>LM1117IMPX-5.0</value>
+      <footprint>LINEAR_SOT223</footprint>
+      <libsource lib="NanoV3.2" part="0022_LM1117IMPX-5.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38BFF8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>~</value>
+      <footprint>2X03</footprint>
+      <libsource lib="NanoV3.2" part="0114_PH254-203DF118A00V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38C3E0</tstamp>
+    </comp>
+    <comp ref="PWR56">
+      <value>Green</value>
+      <footprint>CHIPLED_0805</footprint>
+      <libsource lib="NanoV3.2" part="0043_KPT-2012SGC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38C570</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>1K</value>
+      <footprint>CAY16</footprint>
+      <libsource lib="NanoV3.2" part="0005_064R_1K___CAY16-102J4LF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38C638</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>RESONATOR</footprint>
+      <libsource lib="NanoV3.2" part="0011_CSTCE16M0V53-R0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38E898</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TTL</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A39460E</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>ATMEGA328P-AU</value>
+      <footprint>TQFP32-08</footprint>
+      <libsource lib="NanoV3.2" part="0265_ATMEGA328P-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38C0C0</tstamp>
+    </comp>
+    <comp ref="RL1">
+      <value>relay</value>
+      <footprint>autoSwitch:Relay_HK4100F</footprint>
+      <libsource lib="finder-40" part="FINDER-40.31"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B4306</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC237</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm</footprint>
+      <libsource lib="transistors" part="BC237"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B4AFF</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>OUT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B61A1</tstamp>
+    </comp>
+    <comp ref="FRAME1">
+      <value>DNP</value>
+      <footprint>FRAME</footprint>
+      <libsource lib="NanoV3.2" part="A3-FRAME-STANDARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38BE68</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BABB7</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BAC42</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BAC98</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BAD01</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BAD6F</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumpper</value>
+      <footprint>autoSwitch:SMD-Jummper</footprint>
+      <libsource lib="NanoV3.2" part="Jumpper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BADD6</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>INPUT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B7E53</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NanoV3.2" part="0005_064R_1K___CAY16-102J4LF">
+      <footprints>
+        <fp>*CAY16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0005_064R_1K___CAY16-102J4LF</field>
+        <field name="Footprint">CAY16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0006_1UF_0603_GRM188R61E105KA12D">
+      <footprints>
+        <fp>*C0603-ROUND*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0006_1UF_0603_GRM188R61E105KA12D</field>
+        <field name="Footprint">C0603-ROUND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0011_CSTCE16M0V53-R0">
+      <footprints>
+        <fp>*RESONATOR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">0011_CSTCE16M0V53-R0</field>
+        <field name="Footprint">RESONATOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0015_100NF_0603">
+      <footprints>
+        <fp>*C0603-ROUND*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0015_100NF_0603</field>
+        <field name="Footprint">C0603-ROUND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0022_LM1117IMPX-5.0">
+      <footprints>
+        <fp>*LINEAR_SOT223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">0022_LM1117IMPX-5.0</field>
+        <field name="Footprint">LINEAR_SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND/ADJ" type="input"/>
+        <pin num="2" name="OUT" type="passive"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0043_KPT-2012SGC">
+      <footprints>
+        <fp>*CHIPLED_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">0043_KPT-2012SGC</field>
+        <field name="Footprint">CHIPLED_0805</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0114_PH254-203DF118A00V">
+      <footprints>
+        <fp>*2X03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">0114_PH254-203DF118A00V</field>
+        <field name="Footprint">2X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0265_ATMEGA328P-AU">
+      <footprints>
+        <fp>*TQFP32-08*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">0265_ATMEGA328P-AU</field>
+        <field name="Footprint">TQFP32-08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3(INT1)" type="BiDi"/>
+        <pin num="2" name="PD4(XCK/T0)" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="VCC" type="BiDi"/>
+        <pin num="5" name="GND" type="BiDi"/>
+        <pin num="6" name="VCC" type="BiDi"/>
+        <pin num="7" name="PB6(XTAL1/TOSC1)" type="BiDi"/>
+        <pin num="8" name="PB7(XTAL2/TOSC2)" type="BiDi"/>
+        <pin num="9" name="PD5(T1)" type="BiDi"/>
+        <pin num="10" name="PD6(AIN0)" type="BiDi"/>
+        <pin num="11" name="PD7(AIN1)" type="BiDi"/>
+        <pin num="12" name="PB0(ICP)" type="BiDi"/>
+        <pin num="13" name="PB1(OC1A)" type="BiDi"/>
+        <pin num="14" name="PB2(SS/OC1B)" type="BiDi"/>
+        <pin num="15" name="PB3(MOSI/OC2)" type="BiDi"/>
+        <pin num="16" name="PB4(MISO)" type="BiDi"/>
+        <pin num="17" name="PB5(SCK)" type="BiDi"/>
+        <pin num="18" name="AVCC" type="BiDi"/>
+        <pin num="19" name="ADC6" type="BiDi"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="AGND" type="BiDi"/>
+        <pin num="22" name="ADC7" type="BiDi"/>
+        <pin num="23" name="PC0(ADC0)" type="BiDi"/>
+        <pin num="24" name="PC1(ADC1)" type="BiDi"/>
+        <pin num="25" name="PC2(ADC2)" type="BiDi"/>
+        <pin num="26" name="PC3(ADC3)" type="BiDi"/>
+        <pin num="27" name="PC4(ADC4/SDA)" type="BiDi"/>
+        <pin num="28" name="PC5(ADC5/SCL)" type="BiDi"/>
+        <pin num="29" name="PC6(/RESET)" type="BiDi"/>
+        <pin num="30" name="PD0(RXD)" type="BiDi"/>
+        <pin num="31" name="PD1(TXD)" type="BiDi"/>
+        <pin num="32" name="PD2(INT0)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="0833_TAJA475MO16RNJ">
+      <footprints>
+        <fp>*TAN-A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0833_TAJA475MO16RNJ</field>
+        <field name="Footprint">TAN-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="A3-FRAME-STANDARD">
+      <footprints>
+        <fp>*FRAME*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FRAME</field>
+        <field name="Value">A3-FRAME-STANDARD</field>
+        <field name="Footprint">FRAME</field>
+      </fields>
+    </libpart>
+    <libpart lib="transistors" part="BC237">
+      <description>Vce 50V, Ic 100mA, NPN Epitaxial Silicon Transistor, TO-92</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC237</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="finder-40" part="FINDER-40.51">
+      <aliases>
+        <alias>FINDER-36.11.4001</alias>
+        <alias>FINDER-40.31</alias>
+        <alias>RM50-xx11</alias>
+      </aliases>
+      <description>FINDER 40.51, Single Pole Relay, 5mm Pitch, 10A</description>
+      <docs>http://gfinder.findernet.com//assets/Series/5/S40EN.pdf</docs>
+      <fields>
+        <field name="Reference">RL</field>
+        <field name="Value">FINDER-40.51</field>
+      </fields>
+      <pins>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="A1" name="~" type="passive"/>
+        <pin num="A2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NanoV3.2" part="Jumpper">
+      <footprints>
+        <fp>*SMD_157SW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumpper</field>
+        <field name="Footprint">C0603-ROUND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="finder-40">
+      <uri>/home/jame/autoSwitchKicad/kicad/autoSwitch.pretty/finder-40.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="NanoV3.2">
+      <uri>/home/jame/autoSwitchKicad/kicad/NanoV3.2.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AREF">
+      <node ref="C1" pin="1"/>
+      <node ref="IC3" pin="20"/>
+    </net>
+    <net code="2" name="/N$3">
+      <node ref="RP1" pin="3"/>
+      <node ref="PWR56" pin="A"/>
+    </net>
+    <net code="3" name="/N$2">
+      <node ref="IC3" pin="7"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="4" name="/N$1">
+      <node ref="IC3" pin="8"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="5" name="/A3">
+      <node ref="IC3" pin="26"/>
+    </net>
+    <net code="6" name="Net-(RL1-Pad10)">
+      <node ref="RL1" pin="10"/>
+    </net>
+    <net code="7" name="/A6">
+      <node ref="IC3" pin="19"/>
+    </net>
+    <net code="8" name="/A5">
+      <node ref="IC3" pin="28"/>
+    </net>
+    <net code="9" name="/A4">
+      <node ref="IC3" pin="27"/>
+    </net>
+    <net code="10" name="/A2">
+      <node ref="IC3" pin="25"/>
+    </net>
+    <net code="11" name="/A1">
+      <node ref="IC3" pin="24"/>
+    </net>
+    <net code="12" name="/D10">
+      <node ref="IC3" pin="14"/>
+    </net>
+    <net code="13" name="/A0">
+      <node ref="IC3" pin="23"/>
+    </net>
+    <net code="14" name="/D9">
+      <node ref="IC3" pin="13"/>
+      <node ref="JP6" pin="1"/>
+    </net>
+    <net code="15" name="/A7">
+      <node ref="IC3" pin="22"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="RL1" pin="A1"/>
+    </net>
+    <net code="17" name="+5V">
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="RP1" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="J4" pin="2"/>
+      <node ref="RP1" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="IC3" pin="18"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="18" name="COM">
+      <node ref="Y1" pin="2"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC3" pin="21"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="PWR56" pin="C"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P3" pin="2"/>
+      <node ref="RL1" pin="A2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(RL1-Pad14)">
+      <node ref="RL1" pin="14"/>
+    </net>
+    <net code="20" name="VIN">
+      <node ref="IC2" pin="3"/>
+      <node ref="P3" pin="1"/>
+      <node ref="RL1" pin="12"/>
+    </net>
+    <net code="21" name="/D3">
+      <node ref="IC3" pin="1"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="JP5" pin="2"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="22" name="/D4">
+      <node ref="IC3" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="23" name="/D5">
+      <node ref="JP2" pin="1"/>
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="24" name="/D6">
+      <node ref="JP3" pin="1"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="25" name="/D7">
+      <node ref="JP4" pin="1"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="26" name="/D8">
+      <node ref="IC3" pin="12"/>
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="28" name="/RESET">
+      <node ref="J4" pin="5"/>
+      <node ref="IC3" pin="29"/>
+      <node ref="RP1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(P2-Pad1)">
+      <node ref="RL1" pin="11"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="30" name="Net-(P1-Pad2)">
+      <node ref="RP1" pin="8"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="31" name="/D2">
+      <node ref="IC3" pin="32"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="32" name="/D12/MISO">
+      <node ref="IC3" pin="16"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="33" name="/D11/MOSI">
+      <node ref="J4" pin="4"/>
+      <node ref="IC3" pin="15"/>
+    </net>
+    <net code="34" name="/D1/TX">
+      <node ref="IC3" pin="31"/>
+      <node ref="RP1" pin="2"/>
+    </net>
+    <net code="35" name="/D0/RX">
+      <node ref="RP1" pin="1"/>
+      <node ref="IC3" pin="30"/>
+    </net>
+    <net code="36" name="/D13/SCK">
+      <node ref="IC3" pin="17"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="37" name="/TX">
+      <node ref="P1" pin="1"/>
+      <node ref="RP1" pin="7"/>
+    </net>
+  </nets>
+</export>
