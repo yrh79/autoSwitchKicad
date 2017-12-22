@@ -1,4 +1,4 @@
-update=2017/12/21 12:46:29
+update=2017年12月22日 星期五 10时49分24秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,5 +31,5 @@ LibDir=
 [eeschema/libraries]
 LibName1=NanoV3.2
 LibName2=conn
-LibName3=relays
-LibName4=transistors
+LibName3=transistors
+LibName4=autoSwitch.pretty/finder-40
