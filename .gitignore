@@ -1,4 +1,5 @@
 kicad/*.bak
 kicad/*-cache.lib
 kicad/*.kicad_pcb-bak
+kicad/outputs
 
