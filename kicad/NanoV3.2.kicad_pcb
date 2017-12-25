@@ -3,7 +3,7 @@
   (general
     (links 59)
     (no_connects 1)
-    (area 126.836099 96.038599 170.166101 113.968601)
+    (area 106.905315 90.1394 179.302041 118.27004)
     (thickness 1.6)
     (drawings 91)
     (tracks 401)
@@ -159,6 +159,7 @@
     (via_drill 0.6)
     (uvia_dia 0.4)
     (uvia_drill 0.2)
+    (add_net VIN)
   )
 
   (net_class w1.0 ""
@@ -169,7 +170,6 @@
     (uvia_dia 1.2)
     (uvia_drill 0.4)
     (add_net "Net-(P2-Pad1)")
-    (add_net VIN)
   )
 
   (module LINEAR_SOT223 (layer Top) (tedit 5A3D1BB6) (tstamp 5A38B539)
@@ -1457,10 +1457,10 @@
   (segment (start 140.295 106.54728) (end 140.295 107.512) (width 0.25) (layer Top) (net 13) (tstamp 5A3D1784))
   (segment (start 140.843 105.99928) (end 140.295 106.54728) (width 0.25) (layer Top) (net 13) (tstamp 5A3D1782))
   (segment (start 140.97 105.19) (end 140.843 105.063) (width 0.25) (layer Top) (net 13) (tstamp 5A3C84D7))
-  (segment (start 150.2918 103.0986) (end 151.96312 103.0986) (width 1) (layer Top) (net 14))
-  (segment (start 154.03576 109.2962) (end 155.88488 111.14532) (width 1) (layer Top) (net 14) (tstamp 5A40A5EA))
-  (segment (start 154.03576 105.17124) (end 154.03576 109.2962) (width 1) (layer Top) (net 14) (tstamp 5A40A5E7))
-  (segment (start 151.96312 103.0986) (end 154.03576 105.17124) (width 1) (layer Top) (net 14) (tstamp 5A40A5E5))
+  (segment (start 150.2918 103.0986) (end 152.16124 103.0986) (width 0.5) (layer Top) (net 14) (status 400000))
+  (segment (start 154.09164 109.35208) (end 155.88488 111.14532) (width 0.5) (layer Top) (net 14) (tstamp 5A40AF50) (status 800000))
+  (segment (start 154.09164 105.029) (end 154.09164 109.35208) (width 0.5) (layer Top) (net 14) (tstamp 5A40AF4F))
+  (segment (start 152.16124 103.0986) (end 154.09164 105.029) (width 0.5) (layer Top) (net 14) (tstamp 5A40AF4D))
   (segment (start 155.88488 111.14532) (end 157.2768 111.14532) (width 1) (layer Bottom) (net 14))
   (segment (start 157.2768 111.14532) (end 162.13836 106.28376) (width 1) (layer Bottom) (net 14) (tstamp 5A3CB652))
   (segment (start 162.13836 106.28376) (end 167.52824 106.28376) (width 1) (layer Bottom) (net 14) (tstamp 5A3CB653))
