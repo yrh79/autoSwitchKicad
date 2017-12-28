@@ -556,7 +556,6 @@ F 3 "" H 3500 12750 60  0001 C CNN
 	1    3500 12750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12800 6500
 $Comp
 L Jumpper JP1
 U 1 1 5A3BABB7
@@ -684,8 +683,6 @@ F 3 "" H 6200 5750 60  0001 C CNN
 	4    6200 5750
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 12850 7100
-NoConn ~ 12450 6450
 $Comp
 L 0005_064R_1K___CAY16-102J4LF RP1
 U 1 1 5A38C700
@@ -836,10 +833,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 6250 11750 6250
 Wire Wire Line
-	12600 6500 12600 6400
-Wire Wire Line
-	12600 6400 13450 6400
-Wire Wire Line
 	12700 7100 12700 7200
 Wire Wire Line
 	12700 7200 13300 7200
@@ -908,4 +901,12 @@ Wire Wire Line
 	10700 8350 10700 8250
 Wire Wire Line
 	10700 8250 11000 8250
+Wire Wire Line
+	12600 6400 13450 6400
+NoConn ~ 12800 6500
+Wire Wire Line
+	12600 6500 12600 6400
+Wire Wire Line
+	12850 7100 12850 7200
+Connection ~ 12850 7200
 $EndSCHEMATC
